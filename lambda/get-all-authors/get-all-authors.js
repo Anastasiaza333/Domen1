@@ -1,6 +1,6 @@
 const AWS = require("aws-sdk");
 const dynamodb = new AWS.DynamoDB({
-    region: "us-east-1",
+    region: "eu-central-1",
   apiVersion: "2012-08-10"
 });
 
